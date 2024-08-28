@@ -1,0 +1,68 @@
+/* Custom CSS for navbar */
+.navbar-nav .nav-item {
+    
+    margin-left: 50px;
+    margin-right: 100px; /* Adjust space between each list item */
+  }
+  .dropdown-menu {
+    font-size: 16px;
+    color: #FFDF6B; /* Optional: muted text for descriptions */
+    text-align: center;
+  }
+  .navbar-brand img {
+    height: 100px; /* Adjust the size as needed */
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px; /* Increase font size for better visibility */
+  }
+  .navbar {
+    padding-left: 50px; /* Adjust left padding for the entire navbar */
+    padding-right: 50px; /* Adjust right padding for the entire navbar */
+  }
+
+  .container .carousel-image{
+    margin-left: 100px;
+    width: 500px;
+  }
+
+  .carousel-item .carousel-caption{
+    margin-left: 500px;
+    color: dimgrey;
+  }
+
+  .footer {
+    background-color: #886c83;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer .contact-info, .footer .footer-menu {
+    color: #fff;
+}
+.footer-menu h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+.footer-menu p {
+    font-size: 14px;
+    color: #bbb;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+.footer-menu:hover h5, .footer-menu:hover p {
+    color: #fff; /* Change color on hover */
+}
+.footer .social-icons a {
+    margin-right: 15px;
+    color: #bbb;
+    font-size: 20px;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+.footer .social-icons a:hover {
+    color: #fff; /* Change color on hover */
+}
+.footer-menu:hover {
+    background-color: #ac9c9c; /* Optional: add a background color change on hover */
+    padding: 10px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Navbar with Spacing</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="cssbootstrap.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Bootstrap Navbar -->
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <!-- Logo as a visible element -->
+  <a class="navbar-brand" href="#">
+    <img src="C:\Users\jpoo5\OneDrive\Documents\php fullstack\Bootstrap\logo1.png" alt="Brand Logo"> <!-- Update with your logo path -->
+  </a>
+  
+  <ul class="navbar-nav">
+    <!-- Home -->
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+      <small class="d-block text-muted">Welcome to our homepage</small>
+    </li>
+    <!-- About Us with Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        About Us<small class="d-block text-muted">who we are</small>
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">History</a>
+       
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Mission</a>
+        
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Sponsors</a>
+        
+      </div>
+    </li>
+    <!-- Services -->
+    <li class="nav-item">
+      <a class="nav-link" href="#">Services</a>
+      <small class="d-block text-muted">What we offer</small>
+    </li>
+    <!-- Contact -->
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact</a>
+      <small class="d-block text-muted">Get in touch</small>
+    </li>
+  </ul>
+</nav>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="container">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="carousel-image" src="C:\Users\jpoo5\OneDrive\Documents\php fullstack\Bootstrap\carasol1.jpg" alt="Los Angeles" class="d-block" >
+      <div class="carousel-caption">
+        <h3 style="color: pink;">Charity Services</h3>
+        <p>A bunch of people helping them to surveiv!!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="carousel-image" src="C:\Users\jpoo5\OneDrive\Documents\php fullstack\Bootstrap\carasol2..jpg" alt="Chicago" class="d-block" >
+      <div class="carousel-caption">
+        <h3 style="color: pink;">Spreading Love</h3>
+        <p>Helping them with consellings and prayers!!</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img class="carousel-image" src="C:\Users\jpoo5\OneDrive\Documents\php fullstack\Bootstrap\c.png" alt="New York" class="d-block">
+      <div class="carousel-caption">
+        <h3 style="color: pink;">Food and Groceries Donations</h3>
+        <p>Collecting food and Groceries which is essential for them!!</p>
+      </div>  
+    </div>
+  </div>
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"style="background-color: #D6DAC8;"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"style="background-color: #D6DAC8;"></span>
+  </button>
+</div>
+</div>
+<footer class="footer">
+  <div class="container">
+      <div class="row">
+          <!-- Left Column: Contact Information -->
+          <div class="col-md-4">
+              <div class="contact-info">
+                  <h6>CALL TOLL <span style="color: red;">FREE</span></h6>
+                  <h4>1 800 123 1234</h4>
+                  <h6>FOLLOW US</h6>
+                  <div class="social-icons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                  </div>
+              </div>
+          </div>
+          <!-- Right Column: Program Details -->
+          <div class="col-md-8">
+              <div class="row">
+                  <div class="col-md-3 footer-menu">
+                      <h5>How to help?</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3 footer-menu">
+                      <h5 style="color: red;">Our Programs</h5>
+                      <p>Nunc tempor elementum eros hendrerit magna.</p>
+                  </div>
+                  <div class="col-md-3 footer-menu">
+                      <h5>Donations</h5>
+                      <p>Aliquam sagittis, orci et vehicula cursus, eros.</p>
+                  </div>
+                  <div class="col-md-3 footer-menu">
+                      <h5>Sponsorship</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ <!-- Font Awesome -->
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ <!-- Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
